@@ -5,5 +5,5 @@ let count=document.getElementById("counter")
 function inc(){
 	x++
 	count.innerHTML=x
-	alert(x)
+	alert(--x)
 }
