@@ -1,9 +1,9 @@
 //your JS code here. If required.
 let count=document.getElementById("counter")
- let   x=count.innerHTML
+ let   x=count.innerText
 
 function inc(){
-	alert(Number(x))
+	alert(x)
 	x++
-	count.innerHTML=x
+	count.innerText=x
 }
