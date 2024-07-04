@@ -3,7 +3,7 @@ let count=document.getElementById("counter")
  let   x=count.innerHTML
 
 function inc(){
-	alert(x)
+	alert(Number(x))
 	x++
 	count.innerHTML=x
 }
